@@ -1,0 +1,117 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   width: 100%;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+    position: sticky;
+    top: 0px;
+     background: white;
+}
+ 
+ nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+ }
+ 
+ .logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 240px;
+    height: 40px;
+ }
+
+ header{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvamV0JTIwbWFuYWdlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+
+ }
+ .header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carte-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carte-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin: 150px;
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.presentation p {
+    display: flex;
+    align-items: center;
+}
+
+#parcours .carte:hover{
+    transform: scale(2,1.5);
+    gap: 0px;
+ }
+ #parcours .carte-container{
+    gap: 0px;
+ }
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #230b2b8c;
+    color: white;
+    text-decoration: none;
+    color: black;
+ }
+ .footer-logo {
+    width: 200px;
+    height: 100px;
+}
+.footer-social{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+}
+.footer-social ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+.footer-social img{
+    width: 20px;
+height: 20px;
+}

@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Poppins", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h1, h2{
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.boutons-container{
+   display: flex;
+   gap: 16px;
+}
+
+.bouton{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 8px 16px;
+   width: fit-content;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+}
+
+.bouton.primaire{
+   background: #1f0439;
+   color: white;
+   font-size: small;
+}
+
+.bouton.primaire:hover{
+   background: #c38ff5;
+}
+
+.bouton.secondaire{
+   background: transparent;
+   color: #150227;
+   border: 2px solid #230342;
+   font-size: small;
+}
+
+.bouton.secondaire:hover{
+   border: 2px solid #c38ff5;
+   color: #c38ff5;;
+}
+
+/* Avatar */
+
+.avatar{
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+   border: 2px solid black;
+   object-fit: cover;
+}
+
+/* Lien */
+
+.lien{
+   color: black;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+}
+
+.lien:hover{
+   color: #8005F2;
+}
+
+/* CARTE */
+.carte{
+   display: flex;
+   background: white;
+   color: #400a72;
+   /*
+   border: 5px solid #8005F2;
+   */
+   flex-direction: column;
+   align-items: center;
+   font-family: sans-serif;
+   /*text-transform: uppercase;*/
+   gap: 5px;
+   border-radius: 16px;
+   overflow: hidden;
+   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+   box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+   transition: all 1s ease-in-out;
+}
+
+.carte img{
+   width: 100%;
+   height: 100px;
+   object-fit: cover;
+}
+
+.carte:hover{
+   transform: scale(1.1);
+}
