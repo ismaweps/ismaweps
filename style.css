@@ -105,8 +105,8 @@ nav{
     background-repeat: no-repeat;
 }
 .carte img {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 .carte-container{
@@ -115,6 +115,9 @@ nav{
     align-items: center;
     gap: 60px;
     margin: 150px;
+}
+.temoin{
+    display: flex;
 }
 .presentation{
     display: flex;

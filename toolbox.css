@@ -106,7 +106,7 @@ h1, h2{
 }
 
 .carte img{
-   width: 100%;
+   width: 100px;
    height: 100px;
    object-fit: cover;
 }
