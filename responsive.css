@@ -1,0 +1,36 @@
+/** nav**/
+
+@media(max-width:790px){
+    .logo{
+        width: 90px; 
+    }
+nav ul{
+    display: none;
+
+}
+
+.nav__mobile-menu{
+    display: block;
+    }
+
+}
+
+/**header**/
+@media(max-width:790px){
+.header{
+    font-size: small;
+}
+}
+/**section projet**/
+@media(max-width:790px){
+    .carte-container{
+    display: flex;
+    flex-direction: column;
+    }
+}
+/**section présentation**/
+@media(max-width:790px){
+    .presentation{
+        flex-direction: column;
+    }
+}

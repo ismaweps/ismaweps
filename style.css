@@ -23,6 +23,10 @@ nav{
      z-index: 1;
 }
  
+.nav__mobile-menu{
+    display: none;
+    width: 30px;
+}
  nav ul{
     display: flex;
     gap: 40px;
