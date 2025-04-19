@@ -32,13 +32,16 @@ nav ul{
 @media(max-width:790px){
     .presentation{
         flex-direction: column;
+        display: flex;
+        align-items: center;
     }
+
 }
 /**section parcours**/
 @media(max-width:790px){
 
 }
-/**section parcours**/
+/**section footer**/
 @media(max-width:790px){
     
 }
