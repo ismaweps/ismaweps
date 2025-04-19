@@ -8,7 +8,7 @@ html, body{
     scroll-behavior: smooth;
 }
 
-
+/****/
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ nav{
     width: 240px;
     height: 40px;
  }
-
+/**header**/
  header{
     display: flex;
     align-items:  center;
@@ -60,6 +60,7 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+/**Projet**/
 .carte-projet{
     display:flex;
     flex-direction: column;
@@ -121,9 +122,11 @@ nav{
     gap: 60px;
     margin: 150px;
 }
+/**Temoignage**/
 .temoin{
     display: flex;
 }
+/**présentation**/
 .presentation{
     display: flex;
     flex-direction: row;
@@ -141,7 +144,7 @@ nav{
     height: 550px;
     border-radius: 0px 10px 10px 0px;
 }
-
+/**Parcours**/
 #parcours .carte:hover{
     transform: scale(2,1.5);
     gap: 0px;
@@ -149,7 +152,7 @@ nav{
  #parcours .carte-container{
     gap: 0px;
  }
-
+/**animation photo parcours**/
  .maphoto{
     position: relative;
  }
@@ -185,7 +188,7 @@ animation-play-state: paused;
     } 
 }
  
-
+/**Footer**/
 footer{
     width: 100%;
     display: flex;
